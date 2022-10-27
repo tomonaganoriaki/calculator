@@ -1,0 +1,12 @@
+
+.buttons{
+  max-width: 200px;
+  margin: 0 auto;
+}
+input{
+  width: 110px;
+  height: 30px;
+  font-size: 30px;
+  text-align: right;
+  padding: 0 5px;
+}

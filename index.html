@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="ja">
+ <head>
+  <meta charset="utf-8">
+  <title>計算機</title>
+  <link rel="stylesheet" href="style.css">
+ </head>
+ 
+<body>
+  <div class="buttons">
+    <div>
+      <input readonly id="result" type="text" value="0">
+      <button onclick="c_click()">AC</button>
+    </div>
+    <div>
+      <button onclick="num_click(this.innerHTML)">7</button>
+      <button onclick="num_click(this.innerHTML)">8</button>
+      <button onclick="num_click(this.innerHTML)">9</button>
+      <button onclick="ope_click(this.innerHTML)">+</button>
+      
+    </div>
+    <div>
+      <button onclick="num_click(this.innerHTML)">4</button>
+      <button onclick="num_click(this.innerHTML)">5</button>
+      <button onclick="num_click(this.innerHTML)">6</button>
+      <button onclick="ope_click(this.innerHTML)">×</button>
+    </div>
+    <div>
+      <button onclick="num_click(this.innerHTML)">1</button>
+      <button onclick="num_click(this.innerHTML)">2</button>
+      <button onclick="num_click(this.innerHTML)">3</button>
+      <button onclick="ope_click(this.innerHTML)">-</button>
+    </div>
+    <div>
+      <button onclick="num_click(this.innerHTML)">0</button>
+      <button onclick="num_click(this.innerHTML)">.</button>
+      <button onclick="ope_click(this.innerHTML)">/</button>
+      <button onclick="equal_click()">=</button>
+    </div>
+</div>
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
